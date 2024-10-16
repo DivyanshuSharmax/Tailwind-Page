@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-page",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000a\u0000i\u0000l\u0000w\u0000i\u0000n\u0000d\u0000-\u0000P\u0000a\u0000g\u0000e\u0000\r\u0000 \u0000",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "npx tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivyanshuSharmax/Tailwind-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DivyanshuSharmax/Tailwind-Page/issues"
+  },
+  "homepage": "https://github.com/DivyanshuSharmax/Tailwind-Page#readme"
+}
