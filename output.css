@@ -570,21 +570,26 @@ video {
   margin-top: 0.75rem;
 }
 
-.justify-center {
-  justify-content: center;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .p-9 {
   padding: 2.25rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-5xl {
   font-size: 3rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -601,38 +606,13 @@ video {
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:w-\[90vw\] {
     width: 90vw;
   }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:ml-\[40vw\] {
-    margin-left: 40vw;
-  }
-
-  .lg\:ml-\[20vw\] {
-    margin-left: 20vw;
-  }
-
   .lg\:ml-\[15vw\] {
     margin-left: 15vw;
   }
@@ -645,13 +625,21 @@ video {
     width: 60vw;
   }
 
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .lg\:text-5xl {
     font-size: 3rem;
+  }
+
+  .lg\:text-\[10vw\] {
+    font-size: 10vw;
+  }
+
+  .lg\:text-\[vw\] {
+    color: vw;
   }
 }
 
